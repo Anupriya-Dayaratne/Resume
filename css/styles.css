@@ -1,0 +1,123 @@
+/* Global Styles */
+html{
+  box-sizing: border-box;
+}
+
+*,*:before,*:after{
+
+  box-sizing: inherit;
+}
+
+body {
+    background:#EBF5EE;
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.7em;
+    margin: 0;
+}
+
+h1{
+  font-size:60px;
+}
+
+h2{
+  font-size:30px;
+  margin-top: 0;
+}
+
+
+h1,h2{
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  margin: 0;
+}
+
+a{
+  color:red;
+}
+
+a.hover{
+  text-decoration: none;
+}
+
+ .content-wrap{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+
+.col-narrow{
+  width: 30%;
+  float: left;
+  min-height: 120px;
+
+}
+
+.col-width{
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 120px;
+}
+
+h2,p{
+
+  margin: 0;
+}
+
+h3{
+
+  margin-top: 0;
+}
+
+/* Haeder & Footer */
+
+header,footer{
+    background:#151515;
+    color:#EBF5EE; /* Font color of Header & Footer */
+}
+/*
+header{
+  text-align: center;
+}
+*/
+
+.profile-img{
+
+  border-radius: 50%;
+
+}
+
+header h1,header h2{
+
+  color:#F42B03;
+  margin: 0;
+}
+
+footer{
+
+  text-align: center;
+}
+
+.contact-info a {
+
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/* Work Experience */
+.work{
+
+  background:#81A4CD;
+}
+
+/* Education */
+.education{
+
+  background:#DE8F6E;
+}
+
+.education h3{
+  margin-top: 10px;
+}
